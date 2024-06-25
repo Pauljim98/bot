@@ -1,0 +1,131 @@
+[
+    {
+        "previousStep": "0",
+        "step": "0",
+        "keywords": [
+            "hola",
+            "buenos días",
+            "reedbot",
+            "reed",
+            "asistente"   
+        ],
+        "response": [
+            "¡Hola! Soy Reed, tu asistente virtual personal. Estoy aquí para brindarte toda la ayuda que necesites. 😊 \n",
+            "Por favor, selecciona una de las siguientes opciones. \n",
+            "1️⃣ Descubrir nuestro catálogo de servicios \n",
+            "2️⃣ Conocer nuestros horarios de atención. \n",
+            "3️⃣ Encontrar la ubicación exacta de nuestra agencia.\n\n",
+            "¡Recuerda que siempre puedes escribir Reed para volver a estas opciones en cualquier momento!"
+        ],
+        "type": "text"      
+    },
+    {
+        "previousStep": "0",
+        "step": "1",
+        "keywords": [
+            "1",
+            "catalogo",
+            "servicios"    
+        ],
+        "response": [
+            "Estos son nuestros servicios\n",
+            "¿Te gustaría contratar alguno de ellos? \n",
+            "1️⃣ Sí, por favor. \n",
+            "2️⃣ No, gracias. \n"
+        ],
+        "document": {
+            "link":  "https://66e2-2800-440-9c02-7000-ddf3-d4e0-1a98-ed9a.ngrok-free.app/mediaFiles/Formato.pdf",
+            "filename": "Catalogo de servicios"
+        },
+        "type": "document"
+
+    },
+    {
+        "previousStep": "1",
+        "step": "1.1",
+        "keywords": [
+            "1",
+            "si",
+            "por favor"
+        ],
+        "response":[
+            "¡Genial! Aquí tienes algunas opciones para seguir adelante \n",
+            "1️⃣ Comprar en línea \n",
+            "2️⃣ Solicitar más información \n"
+        ],
+        "type": "text"
+    },
+    {
+        "previousStep": "1",
+        "step": "1.1.1",
+        "keywords":[
+            "1",
+            "comprar",
+            "en linea"
+        ],
+        "response":[
+            "Por favor, espera un momento mientras te conectamos con uno de nuestros operadores.\n",
+            "¡Estamos aquí para ayudarte!"
+        ],
+        "type": "text"
+    },
+    {
+        "previousStep": "1.1",
+        "step": "1.1.2",
+        "keywords":[
+            "2",
+            "informacion"
+        ],
+        "response":[
+            "Perfecto, ¡gracias por tu paciencia! Un operador se pondrá en contacto contigo en breve para proporcionarte más información.\n",
+            "¡Estamos aquí para ayudarte en lo que necesites!"
+        ],
+        "type": "text"
+    },
+    {
+        "previousStep": "1",
+        "step": "1.2",
+        "keywords":[
+            "2",
+            "no"
+        ],
+        "response": [
+            "Gracías por visitarnos, esperamos que regreses pronto"
+        ],
+        "type": "text"
+
+    },
+    {
+        "previousStep": "0",
+        "step": "2",
+        "keywords":[
+            "2",
+            "horarios",
+            "atencion"
+        ],
+        "response":[
+            "Estos son nuestros horarios de atención\n",
+            "Lunes a Viernes de 08:00 a 18:00\n",
+            "Sabados y Domindos de 09:00 a 15:00"
+        ],
+        "type": "text"
+    },
+    {
+        "previousStep": "0",
+        "step": "3",
+        "keywords":[
+            "3",
+            "direción",
+            "ubicación",
+            "donde están"
+        ],
+        "response":[],
+        "location": {
+            "latitude": "-1.267277",
+            "longitude": "-78.626317",
+            "name": "Ciudadela El Dorado",
+            "address": "Rio Yasuny & Rio Cutuchi"
+        },
+        "type": "location"
+    }
+]
